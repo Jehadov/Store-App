@@ -11,8 +11,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Button mode = "text" onPress={signOut}>Sign Out</Button>
       <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Button mode = "text" onPress={signOut} icon={"logout"}>Sign Out</Button>
     </View>
   );
 }
